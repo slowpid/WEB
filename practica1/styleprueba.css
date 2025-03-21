@@ -1,0 +1,76 @@
+.menu {
+    background: rgba(179, 5, 223, 0.8);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #f1440f;
+}
+/* Espaciado para que el contenido no quede oculto bajo el menú */
+.titulo-seccion {
+    padding-top: 90px;
+}
+
+.slowpok{
+    width: 100px;
+    height: 100px;
+}
+
+.tituloo{
+    padding-top: 70px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dd0f0f;
+}
+
+th {
+    background-color: #6787f8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #081feb;
+}
+.spiderman{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleprueba.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <ul>
+                <li><a href="#formularios1">Formulario basico 1</a>  </li>
+                <li><a href="#formularios2">Formulario basico 2</a>  </li>
+                <li><a href="#formularios3">formulario basico 3</a>  </li>
+                <li><a href="#formularios4">formulario basico 4</a>  </li>
+                <li><a href="#formularios5">formulario basico 5</a>  </li>
+                <li><a href="#formularios6">formulario basico 6</a>  </li>
+                <li><a href="#formularios7">formulario basico 7</a>  </li>
+            </ul>
+        </nav>
+    </header>
+    <h1  id="formularios1"  class="tituloo">PRACTICA DE FORMULARIOS BASICOS</h1>
+    <H2>Formulario basico 1</H2>
+    <form>
+        <!--action subir.php (java) method post enctype (publicar) multipart/form-data (obligado subir archivos)-->
+        <fieldset>
+        <legend>Datos de Usuario 1</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+<br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+            <label for="number">edad</label>
+            <input type="number" id="number" name="number" required>
+        <label for="password">Contraseña:</label >
+        <input type="password" id="password" name="password" required>
+<br>
+        <label for="celular">celular</label>
+        <input type="tel" id="celular" name="celular" required>
+        <br>   
+        <label for="foto">sube tu foto</label>
+        <input type="file" id="foto" name="foto" accept="image/*" multiple required>
+        <br>
+        <button type="submit">Enviar</button>
+        <br>
+        <button type="reset">Cancelar</button>
+       
+    </fieldset>
+    </form>
+    <form>
+      <!--action subir.php (java) method post enctype (publicar) multipart/form-data (obligado subir archivos)-->
+      <fieldset>
+      <legend>datos personales</legend>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+<br>
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+          <label for="number">edad</label>
+          <input type="number" id="number" name="number" required>
+      <label for="password">Contraseña:</label >
+      <input type="password" id="password" name="password" required>
+<br>
+      <label for="celular">celular</label>
+      <input type="tel" id="celular" name="celular" required>
+      <br>   
+      <label for="foto">sube tu foto</label>
+      <input type="file" id="foto" name="foto" accept="image/*" multiple required>
+      <br>
+      <button type="submit">Enviar</button>
+      <br>
+      <button type="reset">Cancelar</button>
+     
+  </fieldset>
+  </form>
+  <form>
+    <!--action subir.php (java) method post enctype (publicar) multipart/form-data (obligado subir archivos)-->
+    <fieldset>
+    <legend>Rellena tus datos</legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+<br>
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+        <label for="number">edad</label>
+        <input type="number" id="number" name="number" required>
+    <label for="password">Contraseña:</label >
+    <input type="password" id="password" name="password" required>
+<br>
+    <label for="celular">celular</label>
+    <input type="tel" id="celular" name="celular" required>
+    <br>   
+    <label for="foto">sube tu foto</label>
+    <input type="file" id="foto" name="foto" accept="image/*" multiple required>
+    <br>
+    <button type="submit">Enviar</button>
+    <br>
+    <button type="reset">Cancelar</button>
+   
+</fieldset>
+<fieldset>
+  <legend>Ingrese tus datos</legend>
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+<br>
+  <label for="email">Correo Electrónico:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+      <label for="number">edad</label>
+      <input type="number" id="number" name="number" required>
+  <label for="password">Contraseña:</label >
+  <input type="password" id="password" name="password" required>
+<br>
+  <label for="celular">celular</label>
+  <input type="tel" id="celular" name="celular" required>
+  <br>   
+  <label for="foto">sube tu foto</label>
+  <input type="file" id="foto" name="foto" accept="image/*" multiple required>
+  <br>
+  <button type="submit">Enviar</button>
+  <br>
+  <button type="reset">Cancelar</button>
+ 
+</fieldset>
+<hr>
+
+</form>
+  <h2 id="formularios2" class="tituloo">Formulario basico 2</h2>
+    <form>
+        <fieldset>
+          <legend>Horario de clases</legend>
+          <label for="color1">Color clase 1</label>
+          <input type="color" id="color1" name="color1">
+          <label for="color2">Color clase 2</label>
+          <input type="color" id="color2" name="color2">
+          <label for="color3">Color clase 3</label>
+          <input type="color" id="color3" name="color3">
+          <label for="color4">Color clase 4</label>
+          <input type="color" id="color4" name="color4">
+            <br>
+          <label for="clase1">Dia de clase 1</label>
+          <input type="datetime-local" id="clase1" name="clase1">
+          <label for="tarea1">sube tus tareas</label>
+          <input type="file" id="tarea1" name="tarea1" accept="image/*" multiple required>
+          <br>
+          <label for="clase1">Dia de clase 2</label>
+          <input type="datetime-local" id="clase2" name="clase2">
+          <label for="tarea2">sube tus tareas</label>
+          <input type="file" id="tarea2" name="tarea2" accept="image/*" multiple required>
+          <br>
+          <label for="clase1">Dia de clase 3</label>
+          <input type="datetime-local" id="clase1" name="clase1">
+          <label for="tarea3">sube tus tareas</label>
+          <input type="file" id="tarea3" name="tarea3" accept="image/*" multiple required>
+          <br>
+          <label for="clase1">Dia de clase 4</label>
+          <input type="datetime-local" id="clase4" name="clase4">
+          <label for="tarea4">sube tus tareas</label>
+          <input type="file" id="tarea4" name="tarea4" accept="image/*" multiple required>
+          <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+        </form>
+    
+        <form>
+            <fieldset>
+              <legend>Agenda</legend>
+              <label for="color1">Color clase 1</label>
+              <input type="color" id="color1" name="color1">
+              <label for="color2">Color clase 2</label>
+              <input type="color" id="color2" name="color2">
+              <label for="color3">Color clase 3</label>
+              <input type="color" id="color3" name="color3">
+              <label for="color4">Color clase 4</label>
+              <input type="color" id="color4" name="color4">
+                <br>
+              <label for="clase1">Dia de clase 1</label>
+              <input type="datetime-local" id="clase1" name="clase1">
+              <label for="tarea1">sube tus tareas</label>
+              <input type="file" id="tarea1" name="tarea1" accept="image/*" multiple required>
+              <br>
+              <label for="clase1">Dia de clase 2</label>
+              <input type="datetime-local" id="clase2" name="clase2">
+              <label for="tarea2">sube tus tareas</label>
+              <input type="file" id="tarea2" name="tarea2" accept="image/*" multiple required>
+              <br>
+              <label for="clase1">Dia de clase 3</label>
+              <input type="datetime-local" id="clase1" name="clase1">
+              <label for="tarea3">sube tus tareas</label>
+              <input type="file" id="tarea3" name="tarea3" accept="image/*" multiple required>
+              <br>
+              <label for="clase1">Dia de clase 4</label>
+              <input type="datetime-local" id="clase4" name="clase4">
+              <label for="tarea4">sube tus tareas</label>
+              <input type="file" id="tarea4" name="tarea4" accept="image/*" multiple required>
+              <br>
+                <button type="submit">Subir</button>
+                <br>
+              <button type="reset">Cancelar</button>
+              </fieldset>
+            </form>
+    
+            <form>
+                <fieldset>
+                  <legend>Horario de trabajos</legend>
+                  <label for="color1">Color clase 1</label>
+                  <input type="color" id="color1" name="color1">
+                  <label for="color2">Color clase 2</label>
+                  <input type="color" id="color2" name="color2">
+                  <label for="color3">Color clase 3</label>
+                  <input type="color" id="color3" name="color3">
+                  <label for="color4">Color clase 4</label>
+                  <input type="color" id="color4" name="color4">
+                    <br>
+                  <label for="clase1">Dia de clase 1</label>
+                  <input type="datetime-local" id="clase1" name="clase1">
+                  <label for="tarea1">sube tus tareas</label>
+                  <input type="file" id="tarea1" name="tarea1" accept="image/*" multiple required>
+                  <br>
+                  <label for="clase1">Dia de clase 2</label>
+                  <input type="datetime-local" id="clase2" name="clase2">
+                  <label for="tarea2">sube tus tareas</label>
+                  <input type="file" id="tarea2" name="tarea2" accept="image/*" multiple required>
+                  <br>
+                  <label for="clase1">Dia de clase 3</label>
+                  <input type="datetime-local" id="clase1" name="clase1">
+                  <label for="tarea3">sube tus tareas</label>
+                  <input type="file" id="tarea3" name="tarea3" accept="image/*" multiple required>
+                  <br>
+                  <label for="clase1">Dia de clase 4</label>
+                  <input type="datetime-local" id="clase4" name="clase4">
+                  <label for="tarea4">sube tus tareas</label>
+                  <input type="file" id="tarea4" name="tarea4" accept="image/*" multiple required>
+                  <br>
+                    <button type="submit">Subir</button>
+                    <br>
+                  <button type="reset">Cancelar</button>
+                  </fieldset>
+                </form>
+    
+                <form>
+                    <fieldset>
+                      <legend>Horario de actividades</legend>
+                      <label for="color1">Color clase 1</label>
+                      <input type="color" id="color1" name="color1">
+                      <label for="color2">Color clase 2</label>
+                      <input type="color" id="color2" name="color2">
+                      <label for="color3">Color clase 3</label>
+                      <input type="color" id="color3" name="color3">
+                      <label for="color4">Color clase 4</label>
+                      <input type="color" id="color4" name="color4">
+                        <br>
+                      <label for="clase1">Dia de clase 1</label>
+                      <input type="datetime-local" id="clase1" name="clase1">
+                      <label for="tarea1">sube tus tareas</label>
+                      <input type="file" id="tarea1" name="tarea1" accept="image/*" multiple required>
+                      <br>
+                      <label for="clase1">Dia de clase 2</label>
+                      <input type="datetime-local" id="clase2" name="clase2">
+                      <label for="tarea2">sube tus tareas</label>
+                      <input type="file" id="tarea2" name="tarea2" accept="image/*" multiple required>
+                      <br>
+                      <label for="clase1">Dia de clase 3</label>
+                      <input type="datetime-local" id="clase1" name="clase1">
+                      <label for="tarea3">sube tus tareas</label>
+                      <input type="file" id="tarea3" name="tarea3" accept="image/*" multiple required>
+                      <br>
+                      <label for="clase1">Dia de clase 4</label>
+                      <input type="datetime-local" id="clase4" name="clase4">
+                      <label for="tarea4">sube tus tareas</label>
+                      <input type="file" id="tarea4" name="tarea4" accept="image/*" multiple required>
+                      <br>
+                        <button type="submit">Subir</button>
+                        <br>
+                      <button type="reset">Cancelar</button>
+                      </fieldset>
+          </form>
+          <h2 id="formularios3" class="tituloo">Formulario basico 3</h2>
+                <form>
+                    <fieldset>
+            <legend>Subir archivos especificos</legend>
+            <label for="imagen">subir una imagen</label>
+            <input type="file" id="imagen" name="imagen">
+            <label for="audio">subir un audio</label>
+            <input type="file" id="audio" name="audio">
+            <br>
+            <label for="documento">subir un documento</label>
+            <input type="file" id="documento" name="documento">
+            <label for="Video">subir un video</label>
+            <input type="file" id="video" name="video">
+            <br>
+            <label for="incio">Mes de inicio</label>
+            <input type="month" id="incio" name="inicio">
+            <label for="final">Mes final</label>
+            <input type="month" id="final" name="final">
+            <br>
+            <label for="semana1">Seleccione una semana</label>
+            <input type="week" id="semana1" name="semana1">
+            <label for="semana2">Seleccione una semana</label>
+            <input type="week" id="semana2" name="semana2">
+            <br>
+            <label for="hora1">Seleccione una hora</label>
+            <input type="time" id="hora1" name="hora1">
+            <label for="hora2">Seleccione una hora</label>
+            <input type="time" id="hora2" name="hora2">
+            <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+          </form>
+          <form>
+            <fieldset>
+    <legend>Carga de datos</legend>
+    <label for="imagen">subir una imagen</label>
+    <input type="file" id="imagen" name="imagen">
+    <label for="audio">subir un audio</label>
+    <input type="file" id="audio" name="audio">
+    <br>
+    <label for="documento">subir un documento</label>
+    <input type="file" id="documento" name="documento">
+    <label for="Video">subir un video</label>
+    <input type="file" id="video" name="video">
+    <br>
+    <label for="incio">Mes de inicio</label>
+    <input type="month" id="incio" name="inicio">
+    <label for="final">Mes final</label>
+    <input type="month" id="final" name="final">
+    <br>
+    <label for="semana1">Seleccione una semana</label>
+    <input type="week" id="semana1" name="semana1">
+    <label for="semana2">Seleccione una semana</label>
+    <input type="week" id="semana2" name="semana2">
+    <br>
+    <label for="hora1">Seleccione una hora</label>
+    <input type="time" id="hora1" name="hora1">
+    <label for="hora2">Seleccione una hora</label>
+    <input type="time" id="hora2" name="hora2">
+    <br>
+    <button type="submit">Subir</button>
+    <br>
+  <button type="reset">Cancelar</button>
+  </fieldset>
+  </form>
+  <form>
+    <fieldset>
+<legend>Subida de datos</legend>
+<label for="imagen">subir una imagen</label>
+<input type="file" id="imagen" name="imagen">
+<label for="audio">subir un audio</label>
+<input type="file" id="audio" name="audio">
+<br>
+<label for="documento">subir un documento</label>
+<input type="file" id="documento" name="documento">
+<label for="Video">subir un video</label>
+<input type="file" id="video" name="video">
+<br>
+<label for="incio">Mes de inicio</label>
+<input type="month" id="incio" name="inicio">
+<label for="final">Mes final</label>
+<input type="month" id="final" name="final">
+<br>
+<label for="semana1">Seleccione una semana</label>
+<input type="week" id="semana1" name="semana1">
+<label for="semana2">Seleccione una semana</label>
+<input type="week" id="semana2" name="semana2">
+<br>
+<label for="hora1">Seleccione una hora</label>
+<input type="time" id="hora1" name="hora1">
+<label for="hora2">Seleccione una hora</label>
+<input type="time" id="hora2" name="hora2">
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+</form>
+<form>
+  <fieldset>
+<legend>Subir un archivo</legend>
+<label for="imagen">subir una imagen</label>
+<input type="file" id="imagen" name="imagen">
+<label for="audio">subir un audio</label>
+<input type="file" id="audio" name="audio">
+<br>
+<label for="documento">subir un documento</label>
+<input type="file" id="documento" name="documento">
+<label for="Video">subir un video</label>
+<input type="file" id="video" name="video">
+<br>
+<label for="incio">Mes de inicio</label>
+<input type="month" id="incio" name="inicio">
+<label for="final">Mes final</label>
+<input type="month" id="final" name="final">
+<br>
+<label for="semana1">Seleccione una semana</label>
+<input type="week" id="semana1" name="semana1">
+<label for="semana2">Seleccione una semana</label>
+<input type="week" id="semana2" name="semana2">
+<br>
+<label for="hora1">Seleccione una hora</label>
+<input type="time" id="hora1" name="hora1">
+<label for="hora2">Seleccione una hora</label>
+<input type="time" id="hora2" name="hora2">
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+</form>
+          <h2 id="formularios4" class="tituloo">Formulario basico 4</h2>
+          <form>
+            <fieldset>
+    <legend>Busquedas y URLS</legend>
+    <label for="busqueda1">Busqueda 1</label>
+    <input type="search" id="busqueda1" name="busqueda1">
+    <br>
+    <label for="busqueda2">Busqueda 2</label>
+    <input type="search" id="busqueda2" name="busqueda2">
+    <br>
+    <label for="busqueda3">Busqueda 3</label>
+    <input type="search" id="busqueda3" name="busqueda3">
+<br>
+<label for="busqueda4">Busqueda 4</label>
+    <input type="search" id="busqueda4" name="busqueda4">
+<br>
+                <label for="URL1">URL 1</label>
+                <input type="url" id="URL1" name="URL1">
+                <label for="URL2">URL 2</label>
+                <input type="url" id="URL2" name="URL2">
+                <label for="URL3">URL 3</label>
+                <input type="url" id="URL3" name="URL3">
+                <label for="URL4">URL 4</label>
+                <input type="url" id="URL4" name="URL4">
+                <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+          </form>
+          <form>
+            <fieldset>
+    <legend>Busqueda</legend>
+    <label for="busqueda1">Busqueda 1</label>
+    <input type="search" id="busqueda1" name="busqueda1">
+    <br>
+    <label for="busqueda2">Busqueda 2</label>
+    <input type="search" id="busqueda2" name="busqueda2">
+    <br>
+    <label for="busqueda3">Busqueda 3</label>
+    <input type="search" id="busqueda3" name="busqueda3">
+<br>
+<label for="busqueda4">Busqueda 4</label>
+    <input type="search" id="busqueda4" name="busqueda4">
+<br>
+                <label for="URL1">URL 1</label>
+                <input type="url" id="URL1" name="URL1">
+                <label for="URL2">URL 2</label>
+                <input type="url" id="URL2" name="URL2">
+                <label for="URL3">URL 3</label>
+                <input type="url" id="URL3" name="URL3">
+                <label for="URL4">URL 4</label>
+                <input type="url" id="URL4" name="URL4">
+                <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+          </form>
+          <form>
+            <fieldset>
+    <legend>URLS</legend>
+    <label for="busqueda1">Busqueda 1</label>
+    <input type="search" id="busqueda1" name="busqueda1">
+    <br>
+    <label for="busqueda2">Busqueda 2</label>
+    <input type="search" id="busqueda2" name="busqueda2">
+    <br>
+    <label for="busqueda3">Busqueda 3</label>
+    <input type="search" id="busqueda3" name="busqueda3">
+<br>
+<label for="busqueda4">Busqueda 4</label>
+    <input type="search" id="busqueda4" name="busqueda4">
+<br>
+                <label for="URL1">URL 1</label>
+                <input type="url" id="URL1" name="URL1">
+                <label for="URL2">URL 2</label>
+                <input type="url" id="URL2" name="URL2">
+                <label for="URL3">URL 3</label>
+                <input type="url" id="URL3" name="URL3">
+                <label for="URL4">URL 4</label>
+                <input type="url" id="URL4" name="URL4">
+                <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+          </form>
+          <form>
+            <fieldset>
+    <legend>Busqueda de paginas</legend>
+    <label for="busqueda1">Busqueda 1</label>
+    <input type="search" id="busqueda1" name="busqueda1">
+    <br>
+    <label for="busqueda2">Busqueda 2</label>
+    <input type="search" id="busqueda2" name="busqueda2">
+    <br>
+    <label for="busqueda3">Busqueda 3</label>
+    <input type="search" id="busqueda3" name="busqueda3">
+<br>
+<label for="busqueda4">Busqueda 4</label>
+    <input type="search" id="busqueda4" name="busqueda4">
+<br>
+                <label for="URL1">URL 1</label>
+                <input type="url" id="URL1" name="URL1">
+                <label for="URL2">URL 2</label>
+                <input type="url" id="URL2" name="URL2">
+                <label for="URL3">URL 3</label>
+                <input type="url" id="URL3" name="URL3">
+                <label for="URL4">URL 4</label>
+                <input type="url" id="URL4" name="URL4">
+                <br>
+            <button type="submit">Subir</button>
+            <br>
+          <button type="reset">Cancelar</button>
+          </fieldset>
+          </form>
+          <h2 id="formularios5" class="tituloo">Formulario basico 5</h2>
+          <form>
+            <fieldset>
+    <legend>usuario contraseña y comentarios</legend>
+    <label for="usuario1">usuario</label>
+    <input type="text" id="usuario1" name="usuario1">
+    <label for="usuario2">usuario</label>
+    <input type="text" id="usuario2" name="usuario2">
+    <br>
+    <label for="contraseña1">contraseña</label>
+    <input type="password" id="contraseña1" name="contraseña1">
+    <label for="contraseña2">contraseña</label>
+    <input type="password" id="contraseña2" name="contraseña2">
+    <br>
+    <input type="range" id="rango1" name="rango1">
+    <label for="rango1">Establece un rango</label>
+    <input type="range" id="rango2" name="rango2">
+    <label for="rango2">Establece un rango</label>
+    <br>
+    <label for="comentario1">Deja un comentario</label>
+    <input type="text" id="comentario1" name="comentario1" style="height: 50px;">
+    <label for="comentario2">Deja un comentario</label>
+    <input type="text" id="comentario2" name="comentario2" style="height: 50px;">
+    <br>
+    <button type="submit">Subir</button>
+    <br>
+  <button type="reset">Cancelar</button>
+  </fieldset>
+  </form>
+  <form>
+    <fieldset>
+<legend>Datos</legend>
+<label for="usuario1">usuario</label>
+<input type="text" id="usuario1" name="usuario1">
+<label for="usuario2">usuario</label>
+<input type="text" id="usuario2" name="usuario2">
+<br>
+<label for="contraseña1">contraseña</label>
+<input type="password" id="contraseña1" name="contraseña1">
+<label for="contraseña2">contraseña</label>
+<input type="password" id="contraseña2" name="contraseña2">
+<br>
+<input type="range" id="rango1" name="rango1">
+<label for="rango1">Establece un rango</label>
+<input type="range" id="rango2" name="rango2">
+<label for="rango2">Establece un rango</label>
+<br>
+<label for="comentario1">Deja un comentario</label>
+<input type="text" id="comentario1" name="comentario1" style="height: 50px;">
+<label for="comentario2">Deja un comentario</label>
+<input type="text" id="comentario2" name="comentario2" style="height: 50px;">
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+</form>
+<form>
+  <fieldset>
+<legend>Usuario</legend>
+<label for="usuario1">usuario</label>
+<input type="text" id="usuario1" name="usuario1">
+<label for="usuario2">usuario</label>
+<input type="text" id="usuario2" name="usuario2">
+<br>
+<label for="contraseña1">contraseña</label>
+<input type="password" id="contraseña1" name="contraseña1">
+<label for="contraseña2">contraseña</label>
+<input type="password" id="contraseña2" name="contraseña2">
+<br>
+<input type="range" id="rango1" name="rango1">
+<label for="rango1">Establece un rango</label>
+<input type="range" id="rango2" name="rango2">
+<label for="rango2">Establece un rango</label>
+<br>
+<label for="comentario1">Deja un comentario</label>
+<input type="text" id="comentario1" name="comentario1" style="height: 50px;">
+<label for="comentario2">Deja un comentario</label>
+<input type="text" id="comentario2" name="comentario2" style="height: 50px;">
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+</form>
+<form>
+  <fieldset>
+<legend>Contraseña</legend>
+<label for="usuario1">usuario</label>
+<input type="text" id="usuario1" name="usuario1">
+<label for="usuario2">usuario</label>
+<input type="text" id="usuario2" name="usuario2">
+<br>
+<label for="contraseña1">contraseña</label>
+<input type="password" id="contraseña1" name="contraseña1">
+<label for="contraseña2">contraseña</label>
+<input type="password" id="contraseña2" name="contraseña2">
+<br>
+<input type="range" id="rango1" name="rango1">
+<label for="rango1">Establece un rango</label>
+<input type="range" id="rango2" name="rango2">
+<label for="rango2">Establece un rango</label>
+<br>
+<label for="comentario1">Deja un comentario</label>
+<input type="text" id="comentario1" name="comentario1" style="height: 50px;">
+<label for="comentario2">Deja un comentario</label>
+<input type="text" id="comentario2" name="comentario2" style="height: 50px;">
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+</form>
+  <form>
+    <h2 id="formularios6" class="tituloo">Formulario basico 6</h2>
+    <fieldset>
+        <legend>Prueba</legend>
+        <h3>seleciona categorias</h3>
+        <label for="caja1">categoria 1</label>
+        <input type="checkbox" id="caja1" name="caja1">
+        <label for="caja2">categoria 2</label>
+        <input type="checkbox" id="caja2" name="caja2">
+        <label for="caja3">categoria 3</label>
+        <input type="checkbox" id="caja3" name="caja3">
+        <label for="caja4">categoria 4</label>
+        <input type="checkbox" id="caja4" name="caja4">
+        <br>
+        <h3>seleciona una opcion</h3>
+      
+        <label for="opcion1">opcion 1</label>
+        <input type="radio" id="opcion1" name="opcion1">
+        <label for="opcion2">opcion 2</label>
+        <input type="radio" id="opcion2" name="opcion2">
+        <label for="opcion3">opcion 3</label>
+        <input type="radio" id="opcion3" name="opcion3">
+        <label for="opcion4">opcion 4</label>
+        <input type="radio" id="opcion4" name="opcion4">
+    <br>
+      <label for="palabra1">seleccione una palabra</label>
+      <input list="personajes">
+      <datalist id="personajes">
+        <option value="godzilla"></option>
+        <option value="slowpoke"></option>
+      </datalist>
+      <label for="palabra1">seleccione una palabra</label>
+      <input list="personajes">
+      <datalist id="personajes">
+        <option value="godzilla"></option>
+        <option value="slowpoke"></option>
+      </datalist>
+      <br>
+      <label for="palabra1">grupo de seleccion</label>
+      <select>
+        <option value="op1">batman</option>
+        <option value="op2">joker</option>
+    </select>
+    <label for="palabra1">grupo de seleccion</label>
+      <select>
+        <option value="op1">batman</option>
+        <option value="op2">joker</option>
+    </select>
+    <br>
+    <label for="palabra1">opciones con descripcion</label>
+    <select>
+      <optgroup label="Países de Sudamérica">
+          <option value="bolivia">Bolivia</option>
+          <option value="peru">Perú</option>
+      </optgroup>
+      <optgroup label="Países de Europa">
+          <option value="españa">España</option>
+          <option value="francia">Francia</option>
+      </optgroup>
+  </select>
+  <label for="palabra1">opciones con descripcion</label>
+  <select>
+    <optgroup label="Países de Sudamérica">
+        <option value="bolivia">Bolivia</option>
+        <option value="peru">Perú</option>
+    </optgroup>
+    <optgroup label="Países de Europa">
+        <option value="españa">España</option>
+        <option value="francia">Francia</option>
+    </optgroup>
+</select>
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Examen</legend>
+      <h3>seleciona categorias</h3>
+      <label for="caja1">categoria 1</label>
+      <input type="checkbox" id="caja1" name="caja1">
+      <label for="caja2">categoria 2</label>
+      <input type="checkbox" id="caja2" name="caja2">
+      <label for="caja3">categoria 3</label>
+      <input type="checkbox" id="caja3" name="caja3">
+      <label for="caja4">categoria 4</label>
+      <input type="checkbox" id="caja4" name="caja4">
+      <br>
+      <h3>seleciona una opcion</h3>
+    
+      <label for="opcion1">opcion 1</label>
+      <input type="radio" id="opcion1" name="opcion1">
+      <label for="opcion2">opcion 2</label>
+      <input type="radio" id="opcion2" name="opcion2">
+      <label for="opcion3">opcion 3</label>
+      <input type="radio" id="opcion3" name="opcion3">
+      <label for="opcion4">opcion 4</label>
+      <input type="radio" id="opcion4" name="opcion4">
+  <br>
+    <label for="palabra1">seleccione una palabra</label>
+    <input list="personajes">
+    <datalist id="personajes">
+      <option value="godzilla"></option>
+      <option value="slowpoke"></option>
+    </datalist>
+    <label for="palabra1">seleccione una palabra</label>
+    <input list="personajes">
+    <datalist id="personajes">
+      <option value="godzilla"></option>
+      <option value="slowpoke"></option>
+    </datalist>
+    <br>
+    <label for="palabra1">grupo de seleccion</label>
+    <select>
+      <option value="op1">batman</option>
+      <option value="op2">joker</option>
+  </select>
+  <label for="palabra1">grupo de seleccion</label>
+    <select>
+      <option value="op1">batman</option>
+      <option value="op2">joker</option>
+  </select>
+  <br>
+  <label for="palabra1">opciones con descripcion</label>
+  <select>
+    <optgroup label="Países de Sudamérica">
+        <option value="bolivia">Bolivia</option>
+        <option value="peru">Perú</option>
+    </optgroup>
+    <optgroup label="Países de Europa">
+        <option value="españa">España</option>
+        <option value="francia">Francia</option>
+    </optgroup>
+</select>
+<label for="palabra1">opciones con descripcion</label>
+<select>
+  <optgroup label="Países de Sudamérica">
+      <option value="bolivia">Bolivia</option>
+      <option value="peru">Perú</option>
+  </optgroup>
+  <optgroup label="Países de Europa">
+      <option value="españa">España</option>
+      <option value="francia">Francia</option>
+  </optgroup>
+</select>
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Selecciones 1</legend>
+    <h3>seleciona categorias</h3>
+    <label for="caja1">categoria 1</label>
+    <input type="checkbox" id="caja1" name="caja1">
+    <label for="caja2">categoria 2</label>
+    <input type="checkbox" id="caja2" name="caja2">
+    <label for="caja3">categoria 3</label>
+    <input type="checkbox" id="caja3" name="caja3">
+    <label for="caja4">categoria 4</label>
+    <input type="checkbox" id="caja4" name="caja4">
+    <br>
+    <h3>seleciona una opcion</h3>
+  
+    <label for="opcion1">opcion 1</label>
+    <input type="radio" id="opcion1" name="opcion1">
+    <label for="opcion2">opcion 2</label>
+    <input type="radio" id="opcion2" name="opcion2">
+    <label for="opcion3">opcion 3</label>
+    <input type="radio" id="opcion3" name="opcion3">
+    <label for="opcion4">opcion 4</label>
+    <input type="radio" id="opcion4" name="opcion4">
+<br>
+  <label for="palabra1">seleccione una palabra</label>
+  <input list="personajes">
+  <datalist id="personajes">
+    <option value="godzilla"></option>
+    <option value="slowpoke"></option>
+  </datalist>
+  <label for="palabra1">seleccione una palabra</label>
+  <input list="personajes">
+  <datalist id="personajes">
+    <option value="godzilla"></option>
+    <option value="slowpoke"></option>
+  </datalist>
+  <br>
+  <label for="palabra1">grupo de seleccion</label>
+  <select>
+    <option value="op1">batman</option>
+    <option value="op2">joker</option>
+</select>
+<label for="palabra1">grupo de seleccion</label>
+  <select>
+    <option value="op1">batman</option>
+    <option value="op2">joker</option>
+</select>
+<br>
+<label for="palabra1">opciones con descripcion</label>
+<select>
+  <optgroup label="Países de Sudamérica">
+      <option value="bolivia">Bolivia</option>
+      <option value="peru">Perú</option>
+  </optgroup>
+  <optgroup label="Países de Europa">
+      <option value="españa">España</option>
+      <option value="francia">Francia</option>
+  </optgroup>
+</select>
+<label for="palabra1">opciones con descripcion</label>
+<select>
+<optgroup label="Países de Sudamérica">
+    <option value="bolivia">Bolivia</option>
+    <option value="peru">Perú</option>
+</optgroup>
+<optgroup label="Países de Europa">
+    <option value="españa">España</option>
+    <option value="francia">Francia</option>
+</optgroup>
+</select>
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+<br>
+<fieldset>
+  <legend>Encuesta</legend>
+  <h3>seleciona categorias</h3>
+  <label for="caja1">categoria 1</label>
+  <input type="checkbox" id="caja1" name="caja1">
+  <label for="caja2">categoria 2</label>
+  <input type="checkbox" id="caja2" name="caja2">
+  <label for="caja3">categoria 3</label>
+  <input type="checkbox" id="caja3" name="caja3">
+  <label for="caja4">categoria 4</label>
+  <input type="checkbox" id="caja4" name="caja4">
+  <br>
+  <h3>seleciona una opcion</h3>
+
+  <label for="opcion1">opcion 1</label>
+  <input type="radio" id="opcion1" name="opcion1">
+  <label for="opcion2">opcion 2</label>
+  <input type="radio" id="opcion2" name="opcion2">
+  <label for="opcion3">opcion 3</label>
+  <input type="radio" id="opcion3" name="opcion3">
+  <label for="opcion4">opcion 4</label>
+  <input type="radio" id="opcion4" name="opcion4">
+<br>
+<label for="palabra1">seleccione una palabra</label>
+<input list="personajes">
+<datalist id="personajes">
+  <option value="godzilla"></option>
+  <option value="slowpoke"></option>
+</datalist>
+<label for="palabra1">seleccione una palabra</label>
+<input list="personajes">
+<datalist id="personajes">
+  <option value="godzilla"></option>
+  <option value="slowpoke"></option>
+</datalist>
+<br>
+<label for="palabra1">grupo de seleccion</label>
+<select>
+  <option value="op1">batman</option>
+  <option value="op2">joker</option>
+</select>
+<label for="palabra1">grupo de seleccion</label>
+<select>
+  <option value="op1">marvel</option>
+  <option value="op2">DC</option>
+</select>
+<br>
+<label for="palabra1">opciones con descripcion</label>
+<select>
+<optgroup label="Países de Sudamérica">
+    <option value="bolivia">Bolivia</option>
+    <option value="peru">Perú</option>
+</optgroup>
+<optgroup label="Países de Europa">
+    <option value="españa">España</option>
+    <option value="francia">Francia</option>
+</optgroup>
+</select>
+<label for="palabra1">opciones con descripcion</label>
+<select>
+<optgroup label="Países de Sudamérica">
+  <option value="bolivia">Bolivia</option>
+  <option value="peru">Perú</option>
+</optgroup>
+<optgroup label="Países de Europa">
+  <option value="españa">España</option>
+  <option value="francia">Francia</option>
+</optgroup>
+</select>
+<br>
+<button type="submit">Subir</button>
+<br>
+<button type="reset">Cancelar</button>
+</fieldset>
+  </form>
+ <h2 id="formularios7" class="tituloo">Formulario basico 7</h2>
+  <form>
+  <fieldset>
+    <legend>Rangos 1</legend>
+    <label for="meter1">Establezca rangos con meter</label>
+    <meter value="60" min="0" max="100" low="30" high="80" optimum="90"></meter>
+    <br>
+    <label for="progress1">Establezca rangos con progress</label>
+    <progress value="40" max="100"></progress>
+  </fieldset>
+  <fieldset>
+    <legend>Altitud</legend>
+    <label for="meter1">Establezca rangos con meter</label>
+    <meter value="10" min="0" max="100" low="30" high="80" optimum="90"></meter>
+    <br>
+    <label for="progress1">Establezca rangos con progress</label>
+    <progress value="40" max="100"></progress>
+  </fieldset>
+  <fieldset>
+    <legend>Datos</legend>
+    <label for="meter1">Establezca rangos con meter</label>
+    <meter value="120" min="0" max="100" low="30" high="80" optimum="90"></meter>
+    <br>
+    <label for="progress1">Establezca rangos con progress</label>
+    <progress value="75" max="100"></progress>
+  </fieldset>
+  <fieldset>
+    <legend>Medidas</legend>
+    <label for="meter1">Establezca rangos con meter</label>
+    <meter value="90" min="0" max="100" low="30" high="80" optimum="90"></meter>
+    <br>
+    <label for="progress1">Establezca rangos con progress</label>
+    <progress value="5" max="100"></progress>
+  </fieldset>
+</form>
+  <a href="../index.html">volver al indice</a>
+</body>
+</html>
